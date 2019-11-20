@@ -1,3 +1,73 @@
 body{
-    background-image: ;
+    background-image: url(images/background\ img.png);
+}
+.topbar{
+    grid-template-columns: .2fr 1.8fr 1.7fr .3fr ;
+    display: grid;
+    background: black;
+    height: 100px;
+}
+.about{
+    margin-top: 35px;
+    font-size: 1.5vw;
+}
+.gallery{
+    margin-top: 35px;
+    font-size: 1.5vw;  
+}
+a{
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 2vw;
+}
+.item{
+    height: 359px;
+    width: 359px;
+    position: relative;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.image a{
+    height: 100%;
+    width: 100%;
+}
+.image img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.descripton{
+    
+    background-color: rgba(0, 0, 0, .75);
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    margin-top: 10px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+p{
+    margin-left: 10px;
+    color: white;
 }
