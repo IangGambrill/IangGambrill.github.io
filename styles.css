@@ -1,4 +1,6 @@
 body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-image: url(images/background\ img.png);
 }
 .topbar{
@@ -70,4 +72,93 @@ img{
 p{
     margin-left: 10px;
     color: white;
+}
+.aboutbox{
+    margin-left: 150px;
+    margin-top: 50px;
+    grid-template-columns: .75fr .5fr .25fr;
+    display: grid;
+    grid-gap: 10px;
+    
+}
+.bigimg{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bigimg img{
+    max-height: 10000000000000000000px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.aboutimg{
+    background-color: rgba(0, 0, 0, .75);
+    width: 420px;
+    height: 550px;
+}
+h1{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+h2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3{
+    color: white;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+.aboutimg p{
+    width: 390px;
+    margin-left: 10px;
+}
+.boxabout{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+.contact{
+    background-color: rgba(0, 0, 0, .75);
+    width: 320px;
+    height: 200px;
+}
+.info{
+    background-color: rgba(0, 0, 0, .75);
+    width: 550px;
+    height: 550px;  
+}
+.selfimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 550px;
+    width: 550px;
+}
+.selfimg img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%  
+}
+.selfimg a{
+    height: 100%;
+    width: 100%;
+}
+.favitem{
+}
+.favitem a{
+    height: 100%;
+    width: 100%;
+}
+.favitem img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
 }
