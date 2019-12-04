@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+<div class="work__layout">
+    <div class="aboutbox">
+            <div class="bigimg">
+                <img src="{{ featured_image | url }}" />
+            </div>
+            <div class="aboutimg">
+                <div class="work__title">
+                    {{ title | upper }}
+                </div>
+                <h2>{{ artist and date }}</h2>
+                <h3>{{ size }}</h3>
+                <h5>{{ description }}</h5>
+            </div>
+</div>
