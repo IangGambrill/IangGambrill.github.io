@@ -15,5 +15,16 @@ templateClass: tmpl-post
                 <h2>{{ artist and date }}</h2>
                 <h3>{{ size }}</h3>
                 <h5>{{ description }}</h5>
+                <div class="multi">
+                    <div class="view">
+                        <img src="{{ featured_image | url }}" />
+                    </div>
+                    <div class="view">
+                        <img src="{{ featured_image | url }}" />
+                    </div>
+                    <div class="view">
+                        <img src="{{ featured_image | url }}" />
+                    </div>
+                </div>
             </div>
 </div>

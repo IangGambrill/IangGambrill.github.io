@@ -4,6 +4,7 @@ tags:
  - work
  - "2019"
  - print
+ - favorite
 title: Where Does Power Lie?
 type: Print
 year: "2019"

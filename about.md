@@ -1,0 +1,26 @@
+---
+layout: layouts/home.njk
+permalink: /about/
+
+---
+
+<div class="boxabout">
+    <div class="aboutinfo">
+        <div class="selfimg">
+            <img src="/img/61_1-warnick-greece-show.jpg" alt="">
+        </div>
+        <div class="info">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor at auctor urna nunc id. Turpis egestas integer eget aliquet nibh praesent tristique magna. Lacus suspendisse faucibus interdum posuere lorem. Dignissim convallis aenean et tortor at. Urna cursus eget nunc scelerisque viverra. Commodo viverra maecenas accumsan lacus vel facilisis volutpat est. At ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Mi quis hendrerit dolor magna eget est lorem. Tempus iaculis urna id volutpat lacus laoreet. Viverra vitae congue eu consequat ac. Elementum eu facilisis sed odio morbi quis. Lorem donec massa sapien faucibus et. Vitae et leo duis ut diam quam nulla porttitor.</p>
+        </div>
+    </div>
+    <div class="contact">
+        <h5>Ian Gambrill</h5>
+        <p>x/x/2000</p>
+        <p>(xxx)xxx-xxxx</p>
+        <p>xxx@xxxxxx.com</p>
+    </div>
+    <div class="favorivte">
+    </div>
+</div class="boxabout">
+</div>
+</div>
