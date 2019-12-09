@@ -10,21 +10,17 @@ templateClass: tmpl-post
             </div>
             <div class="aboutimg">
                 <div class="work__title">
-                    {{ title | upper }}
+                   <h1> {{ title | upper }}</h1>
                 </div>
-                <h2>{{ artist and date }}</h2>
+                <h2>{{ artist_and_date }}</h2>
                 <h3>{{ size }}</h3>
                 <h5>{{ description }}</h5>
                 <div class="multi">
-                    <div class="view">
-                        <img src="{{ featured_image | url }}" />
-                    </div>
-                    <div class="view">
-                        <img src="{{ featured_image | url }}" />
-                    </div>
-                    <div class="view">
-                        <img src="{{ featured_image | url }}" />
-                    </div>
+                     {% for image in support_images %}
+                        <a href="{{ image | url }}">
+                            <img src="{{ image | url }}" />
+                        </a>
+                    {% endfor %}
                 </div>
             </div>
 </div>

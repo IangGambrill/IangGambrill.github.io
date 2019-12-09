@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 permalink: /about/
-
+title: hi
 ---
 
 <div class="boxabout">
@@ -20,7 +20,11 @@ permalink: /about/
         <p>xxx@xxxxxx.com</p>
     </div>
     <div class="favorivte">
-    </div>
-</div class="boxabout">
+    {% set favlist = collections.favorite %}
+    {% for fav in favlist %}
+    <a href="{{ fav.url | url }}">
+            <img src="{{ fav.data.featured_image | url }}" />
+          </a>
+    {% endfor %}
 </div>
 </div>

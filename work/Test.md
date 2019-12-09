@@ -4,6 +4,7 @@ tags:
  - work
  - "2018"
  - print
+ - favorite
 title: This is not a test
 type: Print
 year: "2018"
