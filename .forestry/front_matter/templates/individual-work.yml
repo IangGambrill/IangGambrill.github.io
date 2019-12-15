@@ -42,3 +42,5 @@ fields:
   - type: text
     name: key
     label: key
+pages:
+- work/amalgam-of-opulence.md
