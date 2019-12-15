@@ -8,7 +8,7 @@ type: 3d
 year: "2019"
 size: 21in x 18in
 artist_and_date: Ian Gambrill 12/15/19
-featured_image: ''
+featured_image: "/img/20191127_115912.jpg"
 materials: ceramic & glaze
 description: a pot showing a lop of isolation that starts with communication breaking
   down between friends to the point of the friend leaving which results in isolation.
