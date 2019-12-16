@@ -1,0 +1,200 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(images/background\ img.png);
+}
+.topbar{
+    grid-template-columns: .2fr 1.8fr 1.7fr .3fr ;
+    display: grid;
+    background: black;
+    height: 100px;
+}
+.about{
+    margin-top: 35px;
+    font-size: 1.5vw;
+}
+.gallery{
+    margin-top: 35px;
+    font-size: 1.5vw;  
+}
+a{
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 2vw;
+}
+.item{
+    height: 359px;
+    width: 359px;
+    position: relative;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+.image a{
+    height: 100%;
+    width: 100%;
+}
+.image img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+.descripton{
+    
+    background-color: rgba(0, 0, 0, .75);
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    margin-top: 10px;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+p{
+    margin-left: 10px;
+    color: white;
+}
+.aboutbox{
+    margin-left: 150px;
+    margin-top: 50px;
+    grid-template-columns: .75fr .5fr .25fr;
+    display: grid;
+    grid-gap: 10px;
+    
+}
+.bigimg{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bigimg img{
+    max-height: 10000000000000000000px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.aboutimg{
+    background-color: rgba(0, 0, 0, .75);
+    width: 420px;
+}
+h1{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+h2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h3{
+    color: white;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+h5{
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.aboutimg p{
+    width: 390px;
+    margin-left: 10px;
+}
+.boxabout{
+    grid-template-columns: 1.1fr 1.5fr .4fr;
+    column-gap: 15px;
+    display: grid;
+}
+.contact{
+    background-color: rgba(0, 0, 0, .75);
+    width: 320px;
+    height: 200px;
+}
+.info{
+    background-color: rgba(0, 0, 0, .75);
+    width: 550px;
+    padding: 10px;  
+}
+.selfimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 550px;
+    width: 550px;
+}
+.selfimg img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%  
+}
+.selfimg a{
+    height: 100%;
+    width: 100%;
+}
+.favitem{
+}
+.favitem a{
+    height: 100%;
+    width: 100%;
+}
+.favitem img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+}
+.multi{
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    display: grid;
+    align-items: center;
+    overflow: hidden;
+    height: 200px;
+    padding: 10px;
+}
+.view{
+    height: 130px;
+    width: 130px;
+    position: relative;
+    
+}
+.view img{
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%
+}
+.multi a{
+    height: 100%;
+    width: 100%;
+}
+.logo{
+    height: 75px;
+    width: 75px;
+    margin-top: 10px;
+}
